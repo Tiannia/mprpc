@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/tian/workstation/test_try/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/tian/workstation/test_try/mprpc/src/include -I/home/tian/workstation/test_try/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/tian/workstation/test_try/mprpc/src/mprpcapplication.cc",
+  "file": "/home/tian/workstation/test_try/mprpc/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/tian/workstation/test_try/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/tian/workstation/test_try/mprpc/src/include -I/home/tian/workstation/test_try/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/tian/workstation/test_try/mprpc/src/mprpcconfig.cc",
+  "file": "/home/tian/workstation/test_try/mprpc/src/mprpcconfig.cc"
+},
+{
+  "directory": "/home/tian/workstation/test_try/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/tian/workstation/test_try/mprpc/src/include -I/home/tian/workstation/test_try/mprpc/example  -g   -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/tian/workstation/test_try/mprpc/src/rpcheader.pb.cc",
+  "file": "/home/tian/workstation/test_try/mprpc/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/tian/workstation/test_try/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/tian/workstation/test_try/mprpc/src/include -I/home/tian/workstation/test_try/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcprovider.cc.o -c /home/tian/workstation/test_try/mprpc/src/mprpcprovider.cc",
+  "file": "/home/tian/workstation/test_try/mprpc/src/mprpcprovider.cc"
+},
+{
+  "directory": "/home/tian/workstation/test_try/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/tian/workstation/test_try/mprpc/src/include -I/home/tian/workstation/test_try/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /home/tian/workstation/test_try/mprpc/src/mprpcchannel.cc",
+  "file": "/home/tian/workstation/test_try/mprpc/src/mprpcchannel.cc"
+},
+{
+  "directory": "/home/tian/workstation/test_try/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/tian/workstation/test_try/mprpc/src/include -I/home/tian/workstation/test_try/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/tian/workstation/test_try/mprpc/src/mprpccontroller.cc",
+  "file": "/home/tian/workstation/test_try/mprpc/src/mprpccontroller.cc"
+},
+{
+  "directory": "/home/tian/workstation/test_try/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/tian/workstation/test_try/mprpc/src/include -I/home/tian/workstation/test_try/mprpc/example  -g   -o CMakeFiles/mprpc.dir/logger.cc.o -c /home/tian/workstation/test_try/mprpc/src/logger.cc",
+  "file": "/home/tian/workstation/test_try/mprpc/src/logger.cc"
+},
+{
+  "directory": "/home/tian/workstation/test_try/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/tian/workstation/test_try/mprpc/src/include -I/home/tian/workstation/test_try/mprpc/example  -g   -o CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/tian/workstation/test_try/mprpc/src/zookeeperutil.cc",
+  "file": "/home/tian/workstation/test_try/mprpc/src/zookeeperutil.cc"
+},
+{
+  "directory": "/home/tian/workstation/test_try/mprpc/build/example/callee",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/tian/workstation/test_try/mprpc/src/include -I/home/tian/workstation/test_try/mprpc/example  -g   -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/tian/workstation/test_try/mprpc/example/callee/friendservice.cc",
+  "file": "/home/tian/workstation/test_try/mprpc/example/callee/friendservice.cc"
+},
+{
+  "directory": "/home/tian/workstation/test_try/mprpc/build/example/callee",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/tian/workstation/test_try/mprpc/src/include -I/home/tian/workstation/test_try/mprpc/example  -g   -o CMakeFiles/provider.dir/__/friend.pb.cc.o -c /home/tian/workstation/test_try/mprpc/example/friend.pb.cc",
+  "file": "/home/tian/workstation/test_try/mprpc/example/friend.pb.cc"
+},
+{
+  "directory": "/home/tian/workstation/test_try/mprpc/build/example/caller",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/tian/workstation/test_try/mprpc/src/include -I/home/tian/workstation/test_try/mprpc/example  -g   -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/tian/workstation/test_try/mprpc/example/caller/callfriendservice.cc",
+  "file": "/home/tian/workstation/test_try/mprpc/example/caller/callfriendservice.cc"
+},
+{
+  "directory": "/home/tian/workstation/test_try/mprpc/build/example/caller",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/tian/workstation/test_try/mprpc/src/include -I/home/tian/workstation/test_try/mprpc/example  -g   -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/tian/workstation/test_try/mprpc/example/friend.pb.cc",
+  "file": "/home/tian/workstation/test_try/mprpc/example/friend.pb.cc"
+}
+]
