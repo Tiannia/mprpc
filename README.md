@@ -44,9 +44,8 @@ send_rpc_str += args_str;//args
 ```
 
 接收数据的时候怎么解析？
-按数据头(4字节大小，表示service_name method_name args_size的长度)
-反序列化得到 service_name method_name args_size
-args(通过反序列化后的args_size进行读取)
+
+    数据头(4字节大小，表示service_name method_name args_size的长度）+service_name method_name args_size(防止粘包的问题)+args(参数）
 
 来看一下代码：
 ```c++
