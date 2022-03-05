@@ -71,3 +71,4 @@ if (rpcHeader.ParseFromString(rpc_header_str))
 std::string args_str = recv_buf.substr(4 + header_size, args_size);
 //header_size(4个字节) + header_str + args_str
 ```
+实际上就是怕args后面粘了一些奇怪的东西，我们只读取固定的字节就好了，剩下的字符就丢掉~
