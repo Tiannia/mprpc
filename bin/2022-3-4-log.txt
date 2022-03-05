@@ -1,0 +1,6 @@
+23:28:35 =>[info] dddd
+23:28:35 =>[info] AAAA
+23:37:29 =>[info] dddd
+23:37:29 =>[info] AAAA
+23:37:29 =>[info] service_name:FriendServiceRpc
+23:37:29 =>[info] method_name:GetFriendsList
