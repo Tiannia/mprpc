@@ -45,7 +45,7 @@ send_rpc_str += args_str;//args
 
 接收数据的时候怎么解析？
 
-    数据头(4字节大小，表示service_name method_name args_size的长度）+service_name method_name args_size(防止粘包的问题)+args(参数）
+数据头(4字节大小，表示service_name method_name args_size的长度) + service_name method_name args_size(防止粘包的问题) + args(参数)
 
 来看一下代码：
 ```c++
