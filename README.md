@@ -9,7 +9,9 @@
 
 #### 2. 粘包问题？
 
-在进行服务调用的时候如何区分**服务名**和**方法名**以及**参数**，很简单，通过添加header_size即可解决。
+在进行服务调用的时候如何区分**服务名**和**方法名**以及**参数**？
+很简单，通过添加字段长度即可解决。
+
 组成如下的格式即可：
 
     header_size service_name method_name args_size args
@@ -45,6 +47,7 @@ send_rpc_str += args_str;//args
 按数据头(4字节大小，表示service_name method_name args_size的长度)
 反序列化得到 service_name method_name args_size
 args(通过反序列化后的args_size进行读取)
+
 来看一下代码：
 ```c++
 //从字符流中读取前4个字节的内容
