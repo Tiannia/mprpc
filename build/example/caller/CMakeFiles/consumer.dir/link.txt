@@ -1,1 +1,0 @@
-/bin/x86_64-linux-gnu-g++-9  -g  -rdynamic CMakeFiles/consumer.dir/callfriendservice.cc.o CMakeFiles/consumer.dir/__/friend.pb.cc.o  -o ../../../bin/consumer   -L/usr/local/lib  -L/home/tian/workstation/test_try/mprpc/lib  -Wl,-rpath,/usr/local/lib:/home/tian/workstation/test_try/mprpc/lib ../../../lib/libmprpc.a -lprotobuf -lmuduo_net -lmuduo_base -lpthread -lzookeeper_mt 
